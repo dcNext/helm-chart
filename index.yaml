@@ -1,0 +1,43 @@
+apiVersion: v1
+entries:
+  istio:
+  - apiVersion: v1
+    appVersion: 1.0.6
+    created: 2019-03-01T14:24:52.656037576+01:00
+    description: Helm chart for all istio components
+    digest: 41863048d747be9f34d0239acb6aece61b8e385b6d668169af001a9a8c97c8b4
+    engine: gotpl
+    icon: https://istio.io/favicons/android-192x192.png
+    keywords:
+    - istio
+    - security
+    - sidecarInjectorWebhook
+    - mixer
+    - pilot
+    - galley
+    name: istio
+    sources:
+    - http://github.com/istio/istio
+    tillerVersion: '>=2.7.2-0'
+    urls:
+    - istio-1.0.6.tgz
+    version: 1.0.6
+  istio-remote:
+  - apiVersion: v1
+    appVersion: 1.0.6
+    created: 2019-03-01T14:24:52.656744974+01:00
+    description: Helm chart needed for remote Kubernetes clusters to join the main
+      Istio control plane
+    digest: 7e7a0f238108f97fee77f7ebe31c6794b9f7f74367bdc6031ea01de385d838c4
+    engine: gotpl
+    icon: https://istio.io/favicons/android-192x192.png
+    keywords:
+    - remote
+    name: istio-remote
+    sources:
+    - http://github.com/istio/istio
+    tillerVersion: '>=2.7.2'
+    urls:
+    - istio-remote-1.0.6.tgz
+    version: 1.0.6
+generated: 2019-03-01T14:24:52.652298983+01:00
